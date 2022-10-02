@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peggy grading/attendance system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#home">Jejelove School</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="nav-item active"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#attendance">Attendance</a></li>
+              <li class="nav-item"><a href="#grades">Grade</a></li>
+              <li class="nav-item"><a href="#about-us">About Us</a></li>
+              <li class="nav-item"><a href="#contact-us">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+      
+      <div class="jumbotron img-responsive p-0 mb-3 bg-light">
+        <div class="container-fluid">
+
+        </div>
+      </div>
+
+<!-- Container (About Section) -->
+<div id="attendance" class="container-fluid">
+    <div class="row">
+      <div class="col-sm">
+        <h2>Grading System</h2><br><br>
+             </div>
+</div>
+      
+
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-3 grid-item" style="background-color:lavender;"><h3>Student Name</h3></div>
+  <div class="col-sm-2" style="background-color:lavenderblush;"><h3>Student ID</h3></div>
+  <div class="col-sm-2" style="background-color:lavenderblush;"><h3>Student Year</h3></div>
+  <div class="col-sm-2" style="background-color:lavender;"><h3>Student GPA</h3></div>
+  <div class="col-sm-3" style="background-color:lavenderblush;"><h3>Letter Grade</h3></div>
+ 
+</div>
+<div class="row">
+  <div class="col-sm-3 grid-item" style="background-color:lavender;">Favour Smith</div>
+  <div class="col-sm-2" style="background-color:lavenderblush;">10001</div>
+  <div class="col-sm-2" style="background-color:lavenderblush;">Year 4</div>
+  <div class="col-sm-2" style="background-color:lavender;">3.78</div>
+  <div class="col-sm-3" style="background-color:lavenderblush;">A</div>
+</div>
+<div class="row">
+  <div class="col-sm-3 grid-item" style="background-color:lavender;">Andrew Peters</div>
+  <div class="col-sm-2" style="background-color:lavenderblush;">01005</div>
+  <div class="col-sm-2" style="background-color:lavenderblush;">Year 3</div>
+  <div class="col-sm-2" style="background-color:lavender;">2.9</div>
+  <div class="col-sm-3" style="background-color:lavenderblush;">B</div>
+
+</div>
+</div>
+
+<div id="grades" class="container-fluid">
+        <h2>Attendance System</h2><br><br>
+   
+  
+      <div class="d-flex flex-row bg-secondary mb-3 justify-content-between flex-wrap">
+        <div class="p-2 hbg-info"><h3>Student ID</h3></div>
+        <div class="p-2 flex-fill bd-highlight"><h3>Attendance</h3></div>
+      </div>
+      
+      <div class="d-flex justify-content-between flex-row bg-secondary mb-3">
+          <div class="p-2 bg-info">10001</div>
+          <div class="p-2 bg-warning">Absent</div>
+        </div>
+
+        <div class="d-flex justify-content-between flex-row bg-secondary mb-3">
+          <div class="p-2 bg-info">01005</div>
+          <div class="p-2 bg-warning">Present</div>
+        </div>
+ </div>
+
+  
+</div>
+
+      <footer class="container-fluid text-center">
+        <p>Peggy Roxy - Robogarden exercise September 2022</p>
+      </footer>
+</body>
+</html>

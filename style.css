@@ -1,0 +1,48 @@
+.jumbotron{
+    background-image: url("https://images.pexels.com/photos/2831794/pexels-photo-2831794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18rem;
+    width: auto;
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .nav-item:hover{
+    background-color: aquamarine;
+  }
+
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+img{
+    border: 2px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+}
+p{
+    color: blue;
+    font-style: italic;
+    font-family: arial;
+    font-weight: bold;
+    border-style: solid;
+    background-color:lightgrey;
+}
+.col-sm-{
+  border: 5px ;
+  padding: 20px ;
+  font-size: 16px ;
+  text-align: left;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 5px solid goldenrod;
+}
